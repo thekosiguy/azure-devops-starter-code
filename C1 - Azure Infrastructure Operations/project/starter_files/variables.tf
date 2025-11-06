@@ -23,7 +23,7 @@ variable "admin_password" {
 variable "instance_count" {
   description = "The number of virtual machines to create."
   type        = number
-  default     = 1
+  default     = 2
 }
 
 variable "vm_size" {
